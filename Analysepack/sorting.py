@@ -1,5 +1,5 @@
 #Bubble Sort
-def bubble_sort(items)
+def bubble_sort(items):
     length = len(items) - 1
     sorted = False
 
