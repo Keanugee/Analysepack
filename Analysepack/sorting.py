@@ -1,15 +1,11 @@
 #Bubble Sort
 def bubble_sort(items):
-    length = len(items) - 1
-    sorted = False
-
-    while not sorted:
-        sorted = True
-        for i in range(length):
-            if items[i] > items[i+1]:
-                sorted = False
-                items[i], items[i+1] = items[i+1], items[i]
-        return items
+    n = len(items)
+    for i in range(n-1,0,-1):
+        for j in range(i):
+            if items[j] > items[j+1] :
+                items[j], items[j+1] = items[j+1], items[j]
+            return items
 
 #Merge Sort
 def merge_sort(items):
