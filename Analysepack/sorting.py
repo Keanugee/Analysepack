@@ -1,5 +1,5 @@
 #Bubble Sort
-def bubble_sort(items):
+def bubble_sort(items)
     for x in range(len(items)-1,0,-1):
         for i in range(x):
             if items[i] > items[i+1] :
