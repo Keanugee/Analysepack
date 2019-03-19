@@ -45,7 +45,7 @@ def merge(A, B):
     return new_list
 
 #Quick Sort
-def quick_sort(items)
+def quick_sort(items):
     if len(items) <= 1:
         return items
     else:
