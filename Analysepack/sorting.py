@@ -9,7 +9,7 @@ def bubble_sort(items):
             if items[i] > items[i+1]:
                 sorted = False
                 items[i], items[i+1] = items[i+1], items[i]
-    return items
+        return items
 
 #Merge Sort
 def merge_sort(items):

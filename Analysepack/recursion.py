@@ -1,16 +1,16 @@
 def sum_array(*array):
-""" Returns the sum of all values in an array
+    """ Returns the sum of all values in an array
 
-Args:
-    items (array): list or array-like object containing numerical values.
+    Args:
+        items (array): list or array-like object containing numerical values.
 
-Returns:
-    Sum of all values in the given array
+    Returns:
+        Sum of all values in the given array
 
-Examples:
-        >>> sum_array(1,2,3,4,5,6)
-        Output = 21
- """
+    Examples:
+            >>> sum_array(1,2,3,4,5,6)
+            Output = 21
+     """
     sum = 0
     for number in array:
         sum+=number
@@ -19,18 +19,18 @@ Examples:
 
 
 def reverse(string):
-""" Returns a reversed string
+    """ Returns a reversed string
 
-Args:
-    item(string): A string
+    Args:
+        item(string): A string
 
-Returns:
-    A reversed string
+    Returns:
+        A reversed string
 
-Examples:
-        >>> reverse('Hello')
-        Output = olleH
-"""
+    Examples:
+            >>> reverse('Hello')
+            Output = olleH
+    """
     if len(string) == 0:
         return string
     else:
@@ -38,18 +38,18 @@ Examples:
 
 
 def factorial(n):
-""" factorial (n! = 1×2×3×4×...×n)
+    """ factorial (n! = 1×2×3×4×...×n)
 
-Args:
-    item(integer): An integer
+    Args:
+        item(integer): An integer
 
-Returns:
-    The Factorial of a number (n!)
+    Returns:
+        The Factorial of a number (n!)
 
-Examples:
-        >>> factorial(5)
-        Output = 120
-"""
+    Examples:
+            >>> factorial(5)
+            Output = 120
+    """
     result = 1
     count = 2
 
