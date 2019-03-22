@@ -1,6 +1,6 @@
 def sum_array(array):
     sum = 0
-    for number in array
+    for number in array:
         sum+=number
     return sum
 
